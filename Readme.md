@@ -8,8 +8,10 @@ A simple discord.js v13 template
 
 ```js
 npm install discord.js@dev
+```
 
-OR
+**OR**
 
+```js
 npm install discord.js
 ```
