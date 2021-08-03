@@ -1,9 +1,9 @@
 {
-  "token": "", //Please fill this out, this required!
+  "token": "",
   
-  "prefix": "",//Please fill this out, this required!
+  "prefix": "",
   
-  "colors": {  //this is optional
+  "colors": {
     "errors": "",
     "normal": "",
     "main": ""
