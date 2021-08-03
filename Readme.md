@@ -1,4 +1,4 @@
-# Discord.js v13
+# Discord.js v13 Template
 
 A simple discord.js v13 template
 
@@ -6,4 +6,6 @@ A simple discord.js v13 template
 
 You must have node.js version 14 or higher for this action.
 
-```npm install discord.js@dev```
+```js
+npm install discord.js@dev
+```
