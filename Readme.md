@@ -36,5 +36,8 @@ client.on("ready", async () => {
     });
     
   console.log(`[ API ] Logged in as ${client.user.tag}`);
-})
+});
+
+
+client.login("your bot token here");
 ```
