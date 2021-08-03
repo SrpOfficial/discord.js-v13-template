@@ -1,0 +1,11 @@
+{
+  "token": "", //Please fill this out, this required!
+  
+  "prefix": "",//Please fill this out, this required!
+  
+  "colors": {  //this is optional
+    "errors": "",
+    "normal": "",
+    "main": ""
+   }
+}
