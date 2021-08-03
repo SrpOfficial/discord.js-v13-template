@@ -2,10 +2,14 @@
 
 A simple discord.js v13 template
 
-# How to install discord.js v13?
+# Installation
 
-**You must have node.js version 14 or higher for this action.**
+**Node.js 14.6.0 or newer is required.**
 
 ```js
 npm install discord.js@dev
+
+OR
+
+npm install discord.js
 ```
