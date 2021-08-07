@@ -11,7 +11,7 @@ module.exports = {
      */
 
     execute: async (client, interaction) => {
-        await interaction.defer().catch(() => {});
+        await interaction.deferReply().catch(() => {});
         await interaction.editReply({
             content: "Pong!"
         }).catch(() => {});
