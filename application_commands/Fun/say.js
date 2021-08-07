@@ -26,7 +26,7 @@ module.exports = {
     execute: async (client, interaction) => {
         const msg = interaction.options.data[0].value;
         if(interaction.options.data[1]) {
-            await interaction.defer({
+            await interaction.deferReply({
                 ephemeral: true
             }).catch(() => {});
             const channel = interaction.guild.channels.cache.get(interaction.options.data[1].channel.id);
@@ -46,7 +46,7 @@ module.exports = {
                 });
             })
         } else {
-            await interaction.defer().catch(() => {});
+            await interaction.deferReply().catch(() => {});
             await interaction.editReply({
                 content: `${msg}`
             });
