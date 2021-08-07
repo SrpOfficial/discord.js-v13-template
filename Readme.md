@@ -1,3 +1,5 @@
+# Currently not finished
+
 # Discord.js v13 Template
 
 A simple discord.js v13 template
